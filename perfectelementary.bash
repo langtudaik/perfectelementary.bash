@@ -1,3 +1,7 @@
+#First you update your system
+sudo apt-get update && sudo apt-get dist-upgrade
+
+#For fresh Nvidia Drivers
 sudo add-apt-repository ppa:xorg-edgers/ppa
 sudo apt-get update && sudo apt-get dist-upgrade
 
