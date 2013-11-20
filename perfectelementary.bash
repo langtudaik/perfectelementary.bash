@@ -1,7 +1,7 @@
 sudo add-apt-repository ppa:xorg-edgers/ppa
 sudo apt-get update && sudo apt-get dist-upgrade
 
-sudo apt-get install nvidia-current
+sudo apt-get install nvidia-331
 
 #Install Ubuntu Restricted Extras
 sudo apt-get install ubuntu-restricted-extras
