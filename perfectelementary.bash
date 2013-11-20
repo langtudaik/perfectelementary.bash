@@ -62,6 +62,11 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 
+#Install Java 7
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+
 #Install Steam
 wget http://repo.steampowered.com/steam/signature.gpg && sudo apt-key add signature.gpg
 sudo sh -c 'echo "deb http://repo.steampowered.com/steam/ precise steam" >> /etc/apt/sources.list.d/steam.list'
