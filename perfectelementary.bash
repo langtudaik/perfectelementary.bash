@@ -30,25 +30,23 @@ sudo apt-get install elementary-elfaenza-icons elementary-nitrux-icons
 sudo apt-get install elementary-plank-themes
 sudo apt-get install wingpanel-slim indicator-synapse
 
-#Install Apparmor 2.8
-sudo add-apt-repository ppa:apparmor-upload/apparmor-2.8
-sudo apt-get update && sudo apt-get dist-upgrade
-
 Install Kernel 3.12 on 64 Bit
 
 mkdir kernel
 cd kernel
 
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.12-saucy/linux-headers-3.12.0-031200-generic_3.12.0-031200.201311031935_amd64.deb
-
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.12-saucy/linux-headers-3.12.0-031200_3.12.0-031200.201311031935_all.deb
-
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.12-saucy/linux-image-3.12.0-031200-generic_3.12.0-031200.201311031935_amd64.deb
 
 dpkg -i *.deb
 
 cd ..
 rm -rf kernel
+
+#Install Apparmor 2.8
+sudo add-apt-repository ppa:apparmor-upload/apparmor-2.8
+sudo apt-get update && sudo apt-get dist-upgrade
 
 
 
