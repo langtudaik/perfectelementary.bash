@@ -30,7 +30,7 @@ sudo apt-get install elementary-elfaenza-icons elementary-nitrux-icons
 sudo apt-get install elementary-plank-themes
 sudo apt-get install wingpanel-slim indicator-synapse
 
-Install Kernel 3.12 on 64 Bit
+#Install Kernel 3.12 on 64 Bit
 
 mkdir kernel
 cd kernel
@@ -47,6 +47,16 @@ rm -rf kernel
 #Install Apparmor 2.8
 sudo add-apt-repository ppa:apparmor-upload/apparmor-2.8
 sudo apt-get update && sudo apt-get dist-upgrade
+
+#Install Google Chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get update
+sudo apt-get install google-chrome-stable
+
+#Install Steam
+wget http://repo.steampowered.com/steam/signature.gpg && sudo apt-key add signature.gpg
+sudo sh -c 'echo "deb http://repo.steampowered.com/steam/ precise steam" >> /etc/apt/sources.list.d/steam.list'
 
 
 
