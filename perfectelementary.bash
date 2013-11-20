@@ -10,6 +10,10 @@ sudo apt-get install ubuntu-restricted-extras
 cd /etc/xdg/autostart
 sudo sed --in-place 's/NoDisplay=true/NoDisplay=false/g' *.desktop
 
+#Enable Movie DVD Support
+sudo apt-get install libdvdread4
+sudo /usr/share/doc/libdvdread4/install-css.sh
+
 #Install a Firewall Application
 sudo apt-get install gufw
 
