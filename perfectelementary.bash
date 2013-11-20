@@ -73,6 +73,10 @@ sudo sh -c 'echo "deb http://repo.steampowered.com/steam/ precise steam" >> /etc
 sudo apt-get update
 sudo apt-get install steam
 
+#Install Skype
+sudo apt-add-repository "deb http://archive.canonical.com/ubuntu/ precise partner"
+sudo apt-get update && sudo apt-get install skype
+
 
 
 
