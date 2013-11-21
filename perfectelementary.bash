@@ -8,7 +8,12 @@ sudo apt-get update && sudo apt-get dist-upgrade
 sudo add-apt-repository ppa:xorg-edgers/ppa
 sudo apt-get update && sudo apt-get dist-upgrade
 
+#For Nvidia Cards
 sudo apt-get install nvidia-331
+
+#For AMD Cards 
+sudo apt-get install fglrx-installer
+
 
 #Install Ubuntu Restricted Extras
 sudo apt-get install ubuntu-restricted-extras
