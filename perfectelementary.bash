@@ -11,7 +11,7 @@ sudo apt-get update && sudo apt-get dist-upgrade
 #For Nvidia Cards
 sudo apt-get install nvidia-331
 
-#For AMD Cards 
+#For AMD/ATI Cards 
 sudo apt-get install fglrx-installer
 
 
