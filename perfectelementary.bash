@@ -90,6 +90,11 @@ sudo add-apt-repository ppa:libreoffice/libreoffice-4-0
 sudo apt-get update
 sudo apt-get install libreoffice
 
+#Install the Clementine Music Player
+sudo add-apt-repository ppa:me-davidsansome/clementine
+sudo apt-get update
+sudo apt-get install clementine
+
 
 
 
