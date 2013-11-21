@@ -85,6 +85,11 @@ sudo apt-get install steam
 sudo apt-add-repository "deb http://archive.canonical.com/ubuntu/ precise partner"
 sudo apt-get update && sudo apt-get install skype
 
+#Install Libre Office 4
+sudo add-apt-repository ppa:libreoffice/libreoffice-4-0
+sudo apt-get update
+sudo apt-get install libreoffice
+
 
 
 
