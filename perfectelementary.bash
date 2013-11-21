@@ -1,4 +1,4 @@
-#Download Elementary OS here: 
+#Download Elementary OS from here: 
 #http://sourceforge.net/projects/elementaryos/files/stable/
 
 #First you update your system
