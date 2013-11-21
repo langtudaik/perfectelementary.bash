@@ -1,3 +1,6 @@
+#Download Elementary OS here: 
+#http://sourceforge.net/projects/elementaryos/files/stable/
+
 #First you update your system
 sudo apt-get update && sudo apt-get dist-upgrade
 
