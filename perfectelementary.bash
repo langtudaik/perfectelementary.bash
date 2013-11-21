@@ -1,6 +1,15 @@
 #Download Elementary OS from here: 
 #http://sourceforge.net/projects/elementaryos/files/stable/
 
+#Clean-up System
+sudo apt-get purge noise
+sudo apt-get purge software-center
+sudo apt-get purge scratch-text-editor
+sudo apt-get autoremove
+
+#Install gedit (Text Editor)
+sudo apt-get install gedit gedit-plugins
+
 #First you update your system
 sudo apt-get update && sudo apt-get dist-upgrade
 
