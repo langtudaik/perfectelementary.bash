@@ -5,6 +5,7 @@
 sudo apt-get update && sudo apt-get dist-upgrade
 
 #Clean-up System
+sudo apt-get purge midori-granite
 sudo apt-get purge noise
 sudo apt-get purge software-center
 sudo apt-get purge scratch-text-editor
