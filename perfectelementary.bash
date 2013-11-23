@@ -56,6 +56,9 @@ sudo apt-get install elementary-elfaenza-icons elementary-nitrux-icons
 sudo apt-get install elementary-plank-themes
 sudo apt-get install wingpanel-slim indicator-synapse
 
+#if not installed 
+#Install the Dynamic Kernel Module Support Framework
+sudo apt-get install dkms
 
 mkdir kernel
 cd kernel
