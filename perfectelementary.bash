@@ -22,6 +22,9 @@ sudo apt-get autoremove
 #Install gedit (Text Editor)
 sudo apt-get install gedit gedit-plugins
 
+#Install Guake Terminal
+sudo apt-get install guake
+
 #For fresh Nvidia Drivers
 sudo add-apt-repository ppa:xorg-edgers/ppa
 sudo apt-get update && sudo apt-get dist-upgrade
