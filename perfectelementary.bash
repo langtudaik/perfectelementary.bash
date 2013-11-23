@@ -26,7 +26,6 @@ sudo apt-get install gedit gedit-plugins
 sudo apt-get install guake
 
 #Install screenfetch (my elementary-OS special Version)
-
 mkdir screenfetch
 cd screenfetch
 wget https://raw.github.com/memoryleakx/screenFetch/master/screenfetch-dev
