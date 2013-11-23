@@ -25,6 +25,20 @@ sudo apt-get install gedit gedit-plugins
 #Install Guake Terminal
 sudo apt-get install guake
 
+#Install screenfetch (my elementary-OS special Version)
+
+mkdir screenfetch
+cd screenfetch
+wget https://raw.github.com/memoryleakx/screenFetch/master/screenfetch-dev
+sudo mv screenfetch-dev /usr/bin/screenfetch
+cd ..
+rm -rf screenfetch
+
+##setup .bashrc for auto screenfetch
+gedit ~/.bashrc
+###put this on the last line
+screenfetch -D "Elementary"
+
 #For fresh Nvidia Drivers
 sudo add-apt-repository ppa:xorg-edgers/ppa
 sudo apt-get update && sudo apt-get dist-upgrade
