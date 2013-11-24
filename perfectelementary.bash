@@ -151,4 +151,12 @@ sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian precise c
 sudo apt-get update
 sudo apt-get install virtualbox-4.3
 
+#if you want't install Thunderbird instead of Geary Mail
+#first remove Geary Mail
+sudo apt-get purge geary
+
+#Install Thunderbird
+sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa
+sudo apt-get update
+sudo apt-get install thunderbird
 
