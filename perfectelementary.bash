@@ -152,7 +152,7 @@ sudo apt-get update
 sudo apt-get install virtualbox-4.3
 
 #Install Thunderbird
-#if you want't install Thunderbird instead of Geary Mail
+#if you want install Thunderbird instead of Geary Mail
 #first remove Geary Mail
 sudo apt-get purge geary
 
