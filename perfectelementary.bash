@@ -101,6 +101,19 @@ sudo dpkg -i *.deb
 
 cd ..
 rm -rf kernel
+#Reboot!
+
+#Install Broadcom STA Driver (if you need)
+mkdir wlan
+cd wlan
+wget https://launchpad.net/ubuntu/+archive/primary/+files/broadcom-sta-common_6.30.223.141-1_all.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/broadcom-sta-dkms_6.30.223.141-1_all.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/broadcom-sta-source_6.30.223.141-1_all.deb
+
+sudo dpkg -i *.deb
+cd ..
+rm -rf wlan
+#Reboot!
 
 #Install Apparmor 2.8
 sudo add-apt-repository ppa:apparmor-upload/apparmor-2.8
