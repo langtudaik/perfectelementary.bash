@@ -22,6 +22,9 @@ sudo apt-get autoremove
 #Install gedit (Text Editor)
 sudo apt-get install gedit gedit-plugins
 
+#Install File Compression Libs
+sudo apt-get install p7zip-full zip xz-utils
+
 #Install Guake Terminal
 sudo apt-get install guake
 
