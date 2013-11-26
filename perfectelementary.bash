@@ -106,9 +106,7 @@ rm -rf kernel
 #Install Broadcom STA Driver (if you need)
 mkdir wlan
 cd wlan
-wget https://launchpad.net/ubuntu/+archive/primary/+files/broadcom-sta-common_6.30.223.141-1_all.deb
 wget https://launchpad.net/ubuntu/+archive/primary/+files/broadcom-sta-dkms_6.30.223.141-1_all.deb
-wget https://launchpad.net/ubuntu/+archive/primary/+files/broadcom-sta-source_6.30.223.141-1_all.deb
 
 sudo dpkg -i *.deb
 cd ..
