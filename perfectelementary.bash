@@ -23,7 +23,7 @@ sudo apt-get autoremove
 sudo apt-get install gedit gedit-plugins
 
 #Install File Compression Libs
-sudo apt-get install p7zip-full zip xz-utils
+sudo apt-get install unace unrar zip unzip xz-utils p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller
 
 #Install Guake Terminal
 sudo apt-get install guake
