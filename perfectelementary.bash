@@ -71,7 +71,8 @@ sudo apt-get install ia32-libs
 
 #Install Gimp
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
-sudo apt-get update && sudo apt-get install gimp
+sudo apt-get update
+sudo apt-get install gimp gimp-data gimp-plugin-registry gimp-data-extras
 
 #Install Elementary OS extras
 sudo apt-add-repository ppa:versable/elementary-update
