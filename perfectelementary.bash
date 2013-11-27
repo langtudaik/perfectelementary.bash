@@ -17,7 +17,12 @@ sudo apt-get purge midori-granite
 sudo apt-get purge noise
 sudo apt-get purge software-center
 sudo apt-get purge scratch-text-editor
+sudo apt-get purge bluez
 sudo apt-get autoremove
+
+#Remove some Switchboard Plug's
+sudo rm -rf /usr/lib/plugs/GnomeCC/gnomecc-bluetooth.plug
+sudo rm -rf /usr/lib/plugs/GnomeCC/gnomecc-wacom.plug
 
 #Install gedit (Text Editor)
 sudo apt-get install gedit gedit-plugins
@@ -65,9 +70,6 @@ sudo /usr/share/doc/libdvdread4/install-css.sh
 
 #Install a Firewall Application
 sudo apt-get install gufw
-
-#Install 32-bit Libraries on 64Bit Version only!
-sudo apt-get install ia32-libs
 
 #Install Gimp
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
