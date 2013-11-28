@@ -18,6 +18,7 @@ sudo apt-get purge noise
 sudo apt-get purge software-center
 sudo apt-get purge scratch-text-editor
 sudo apt-get purge bluez
+sudo apt-get purge modemmanager
 sudo apt-get autoremove
 
 #Remove some Switchboard Plug's
