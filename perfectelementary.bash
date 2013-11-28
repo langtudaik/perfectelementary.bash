@@ -20,6 +20,7 @@ sudo apt-get purge scratch-text-editor
 sudo apt-get purge bluez
 sudo apt-get purge modemmanager
 sudo apt-get autoremove
+sudo apt-get autoclean
 
 #Remove some Switchboard Plug's
 sudo rm -rf /usr/lib/plugs/GnomeCC/gnomecc-bluetooth.plug
