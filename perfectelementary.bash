@@ -43,6 +43,9 @@ sudo mv screenfetch-dev /usr/bin/screenfetch
 cd ..
 rm -rf screenfetch
 
+#make it readable and executable
+sudo chmod +rx /usr/bin/screenfetch
+
 ##setup .bashrc for auto screenfetch
 gedit ~/.bashrc
 ###put this on the last line
