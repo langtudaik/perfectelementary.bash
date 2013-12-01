@@ -122,7 +122,6 @@ wget https://launchpad.net/ubuntu/+archive/primary/+files/linux-firmware_1.117_a
 wget https://launchpad.net/ubuntu/+archive/primary/+files/nic-firmware_1.117_all.udeb
 
 sudo dpkg -i *.deb
-sudo dpkg -i *.udeb
 
 cd ..
 rm -rf firmware
