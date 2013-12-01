@@ -114,6 +114,26 @@ cd ..
 rm -rf kernel
 #Reboot!
 
+#Install fresh firmware
+mkdir firmware
+cd firmware
+
+wget https://launchpad.net/ubuntu/+archive/primary/+files/linux-firmware_1.117_all.deb
+wget https://launchpad.net/ubuntu/+archive/primary/+files/nic-firmware_1.117_all.udeb
+
+sudo dpkg -i *.deb
+sudo dpkg -i *.udeb
+
+cd ..
+rm -rf firmware
+
+#update initramfs
+sudo update-initramfs -k all -u
+#Reboot!
+
+
+
+
 #Install Broadcom STA Driver (if you need)
 mkdir wlan
 cd wlan
